@@ -1,0 +1,21 @@
+#content {
+	margin: 10px auto;
+	width: 900px;
+}
+
+#content li {
+	display: block;
+	float: left;
+	width: 400px;
+	margin-left: 10px;
+	border: 0;
+	list-style-type: none;
+	height: 100px;
+}
+#content .word {
+	font-size: 28px;
+	word-wrap: break-word;
+	word-break: break-all;
+	white-space: normal;
+	font-weight: bold;
+}
