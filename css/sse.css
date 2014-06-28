@@ -1,100 +1,109 @@
 body {
-	margin:0;
-	padding:0;
-	font: 40px/1.5 arial,"Helvetica","Hiragino Sans GB","Microsoft Yahei",sans-serif;
+	margin: 0;
+	padding: 0;
+	font: 40px/1.5 arial, "Helvetica", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
 }
 ul {
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
 .fontEn_1 {
-	font-family:'ropa_sans_sc_proregular', Arial, sans-serif;
+	font-family: 'ropa_sans_sc_proregular', Arial, sans-serif;
 }
 .content {
-	width:100%;
-	height:1700px;
-	background-color:#323637;
+	width: 100%;
+	height: 1700px;
+	background-color: #323637;
 }
 .content .maintitle {
-	width:100%;
-	height:130px;
-	font-size:44px;
-	font-weight:bold;
-	text-align:center;
-	padding-top:58px;
-	color:#f46c32;
+	width: 100%;
+	height: 130px;
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 58px;
+	color: #f46c32;
 	background-image: -moz-linear-gradient(top, #293c80, #1c2251); /* Firefox */
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #293c80), color-stop(1, #1c2251)); /* Safari4+, Chrome */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #293c80), color-stop(1, #1c2251)); /* Safari4+, Chrome */
 }
 .content .subtitle {
-	width:100%;
-	height:80px;
-	text-align:center;
-	padding-top:28px;
-	color:#cbcbcb;
-	background-color:#212226;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	padding-top: 28px;
+	color: #cbcbcb;
+	background-color: #212226;
 }
 .content .player ul {
-	cursor:pointer;
-	display:block;
-	width:100%;
-	height:100px;
-	padding-top:30px;
-	font-size:56px;
-	text-shadow:1px 1px 1px #000;
-	border-bottom:1px solid #9a9a9a;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	height: 100px;
+	padding-top: 30px;
+	font-size: 56px;
+	text-shadow: 1px 1px 1px #000;
+	border-bottom: 1px solid #9a9a9a;
 }
 .content .player ul li {
-	display:block;
-	float:left;
-	color:#FFF;
+	display: block;
+	float: left;
+	color: #FFF;
 }
 .number {
-	width:25%;
-	text-align:center;
+	width: 25%;
+	text-align: center;
 }
 .number span {
-	display:block;
-	float:left;
+	display: block;
+	float: left;
 }
 .number span.no {
-	width:80px;
-	height:80px;
-	font-weight:bold;
-	border-radius:60px;
-	background-color:#f46c32;
-	margin-left:10%;
+	width: 80px;
+	height: 80px;
+	font-weight: bold;
+	border-radius: 60px;
+	background-color: #f46c32;
+	margin-left: 10%;
 }
 .number span.icon {
-	margin:5px 0 0 16px;
+	margin: 5px 0 0 16px;
 }
 .playername {
-	width:45%;
-	text-align:left;
-	font-style:italic;
+	width: 45%;
+	text-align: left;
+	font-style: italic;
 }
 .playerinfo {
-	width:30%;
-	text-align:center;
-	font-size:32px;
+	width: 30%;
+	text-align: center;
+	font-size: 32px;
 }
 .playerinfo span {
-	display:block;
-	float:left;
+	display: block;
+	float: left;
 }
 .details {
-	margin:10px 20px 0 0;
-	color:#cbcbcb;
+	margin: 10px 20px 0 0;
+	color: #cbcbcb;
 }
 .content .info {
-	width:100%;
-	padding:20px 0;
-	line-height:160%;
-	letter-spacing:1px;
-	font-size:44px;
-	background-color:#CCC;
-	text-align:center;
-	display:none;
+	width: 100%;
+	padding: 20px 0;
+	line-height: 160%;
+	letter-spacing: 1px;
+	font-size: 44px;
+	background-color: #CCC;
+	text-align: center;
+	display: none;
 	background-image: -moz-linear-gradient(top, #9a9a9a, #dedede); /* Firefox */
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9a9a9a), color-stop(1, #dedede)); /* Safari4+, Chrome */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9a9a9a), color-stop(1, #dedede)); /* Safari4+, Chrome */
+}
+.arrow {
+	text-indent: 90px; 
+}
+.rotate {
+	transition: transform .2s ease-in 0s;
+	transform: rotate(180deg);
+	-webkit-transition: -webkit-transform .2s ease-in 0s;
+	-webkit-transform: rotate(180deg);
 }
