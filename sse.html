@@ -70,14 +70,14 @@ $("#img6").rotate({
 
 
 var value2 = 0
-$("#img7").rotate({ 
+$(".extend").rotate({ 
    bind: 
      { 
         click: function(){
             value2 +=180;
-            $(this).rotate({ animateTo:value2})
+            $(this).find("img.arrow").rotate({ animateTo:value2})
         }
-        
+
      } 
    
 });
@@ -95,7 +95,7 @@ $("#img7").rotate({
       <ul class="extend fontEn_1">
         <li class="number"><span class="no">1</span><span class="icon"><img src="images/goalkeeper.png" /></span></li>
         <li class="playername">Richard.Tang</li>
-        <li class="playerinfo"><span class="details">查看球员信息</span><span><img id="img7" src="images/arrow.png" /></span></li>
+        <li class="playerinfo"><span class="details">查看球员信息</span><span><img class="arrow" src="images/arrow.png" /></span></li>
       </ul>
     </div>
     <div class="info"><b>生日</b>: 1988-06-11<br />
