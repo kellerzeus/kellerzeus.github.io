@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$("button").click(function(){
-    $(this).siblings(".info").slideToggle("fast");
+$(".extend").click(function(){
+    $(this).parent(".player").siblings(".info").slideToggle("fast");
   });
 });
