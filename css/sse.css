@@ -14,13 +14,13 @@ ul {
 	display: none;
 	position: absolute;
 	z-index: 200;
-	width: 220px;
-	height: 1400px;
-	padding: 200px 0 0 1060px;
+	width: 100px;
+	height: 788px;
+	padding: 280px 0 0 750px;
 	background-image:url(../images/pitch.png);
 	top: 0;
 	left: 50%;
-	margin-left: -640px; 
+	margin-left: -475px; 
 }
 .pop img {
 	cursor: pointer;
