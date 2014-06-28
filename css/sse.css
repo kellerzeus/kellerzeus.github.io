@@ -50,20 +50,26 @@ ul {
 	color:#FFF;
 }
 .number {
-	width:15%;
+	width:25%;
 	text-align:center;
 }
 .number span {
 	display:block;
-	margin:0 auto;
+	float:left;
+}
+.number span.no {
 	width:80px;
 	height:80px;
 	font-weight:bold;
 	border-radius:60px;
 	background-color:#f46c32;
+	margin-left:5%;
+}
+.number span.icon {
+	margin:5px 0 0 16px;
 }
 .playername {
-	width:55%;
+	width:45%;
 	text-align:center;
 	font-style:italic;
 }
