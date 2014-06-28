@@ -31,7 +31,7 @@ ul {
 	height:74px;
 	text-align:center;
 	padding-top:26px;
-	color:#b2b2b2;
+	color:#cbcbcb;
 	background-color:#212226;
 }
 .content .player ul {
@@ -50,7 +50,7 @@ ul {
 	color:#FFF;
 }
 .number {
-	width:20%;
+	width:15%;
 	text-align:center;
 }
 .number span {
@@ -58,11 +58,12 @@ ul {
 	margin:0 auto;
 	width:80px;
 	height:80px;
+	font-weight:bold;
 	border-radius:60px;
 	background-color:#f46c32;
 }
 .playername {
-	width:50%;
+	width:55%;
 	text-align:center;
 	font-style:italic;
 }
@@ -77,11 +78,13 @@ ul {
 }
 .details {
 	margin:10px 20px 0 0;
+	color:#cbcbcb;
 }
 .content .info {
 	width:100%;
 	padding:20px 0;
 	line-height:160%;
+	letter-spacing:1px;
 	font-size:44px;
 	background-color:#CCC;
 	text-align:center;
