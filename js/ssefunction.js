@@ -5,11 +5,13 @@ $(".extend").click(function(){
   });
 
 $(".subpitch").click(function(){
+	$(".popblack").css("display","block");
     $(".pop").css("display","block");
     
   });
 
 $(".pop img").click(function(){
+	$(".popblack").css("display","none");
     $(".pop").css("display","none");
     
   });
