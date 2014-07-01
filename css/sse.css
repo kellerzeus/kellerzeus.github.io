@@ -59,14 +59,14 @@ ul {
 	background-color: #212226;
 }
 .sub {
-	width: 77%;
+	width:77%;
 	text-align: left;
 	color: #cbcbcb;
 	padding-top: 33px;
 	padding-left: 3%;
 }
 .subpitch {
-	width: 17%;
+	width:17%;
 	padding-top: 29px;
 	text-align: right;
 	padding-right: 3%;
@@ -143,9 +143,25 @@ ul {
 .arrow {
 	text-indent: 90px; 
 }
-.rotate {
+
+/*.rotate {
 	transition: transform .2s ease-in 0s;
 	transform: rotate(180deg);
 	-webkit-transition: -webkit-transform .2s ease-in 0s;
 	-webkit-transform: rotate(180deg);
+}*/
+
+.time-item strong {
+	color:#f46c32;
+	font-size:44px;
+	font-family:Arial;
+	padding:33px 10px 0 10px;
+	margin-right:10px;
+}
+
+.item-title .unit {
+	background:none;
+	font-size:44px;
+	padding:0 10px;
+	float:left;
 }
