@@ -4,6 +4,7 @@ $(".extend").click(function(){
     
   });
 
+
 $(".subpitch").click(function(){
 	$(".popblack").css("display","block");
     $(".pop").css("display","block");
@@ -17,7 +18,12 @@ $(".pop img").click(function(){
   });
   
 //倒计时插件
-var intDiff = parseInt(220080);//倒计时总秒数量
+
+var targetTime = Math.round((new Date('07/06/2014 10:00:00')).getTime()/1000);
+var	nowTime = Math.round((new Date()).getTime()/1000);
+
+var myTime = targetTime - nowTime;
+var intDiff = parseInt(myTime);//倒计时总秒数量
 
 function timer(intDiff){
 	window.setInterval(function(){
