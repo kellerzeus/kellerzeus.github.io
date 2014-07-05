@@ -19,7 +19,7 @@ $(".pop img").click(function(){
   
 //倒计时插件
 
-var targetTime = Math.round((new Date('07/06/2014 10:00:00')).getTime()/1000);
+var targetTime = Math.round((new Date('07/06/2014 13:00:00')).getTime()/1000);
 var	nowTime = Math.round((new Date()).getTime()/1000);
 
 var myTime = targetTime - nowTime;
